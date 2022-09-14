@@ -1,0 +1,45 @@
+#external{
+
+	color: yellow;
+
+}
+
+* {
+	font-size: 20px;
+	font-family: "Verdana", monospace;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+.languages {
+	background-color: #aed19d;
+}
+
+li[required]{
+	border-style: solid;
+	border-color:blue ;
+}
+
+img + ul {
+	list-style-type: none;
+}
+
+section img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+}
+
+ul > li {
+	letter-spacing: 10px;
+}
+
+h4 ~ p {
+	text-align: center;
+}
